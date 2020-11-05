@@ -1,0 +1,86 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <title>Redesign</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css?family=Exo 2" rel="stylesheet" />
+    <!-- TODO: add additional links here! e.g. fonts, icons, more stylesheets, etc. -->
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+</head>
+
+<body>
+    <h1>AB Testing</h1>
+
+    <h2>Context</h2>
+    <p>
+        During my sophomore fall semester at Brown, my UI/UX class assigned us a project that would better help us
+        understand AB testing, its applications, and then implementing it into our own websites. We then had to make two
+        webpages that differentiated between user interfaces to see the statistical difference between both.
+    </p>
+
+    <div class="side">
+        <div class="img1">
+            <a href="https://stark-brushlands-98888.herokuapp.com/" target="_blank">
+                <img src="img1.png" class="one" alt="First website" /> </a>
+        </div>
+        <div class="img2">
+            <a href="https://stark-brushlands-98888.herokuapp.com/" target="_blank">
+                <img src="img2.png" class="two" alt="First website" /> </a>
+        </div>
+        <p class="link"><a href="https://stark-brushlands-98888.herokuapp.com/" target="_blank">The websites link!</a>
+        </p>
+    </div>
+
+    <h2>Research</h2>
+
+    <h3>Hypothesis</h3>
+    <p>
+        Before I ran my program, I had first make two null and two alternative hypotheses: 1. Time to
+        Completion, and <br>2. Return Rate. <br> <br>
+    <h4>Null</h4>
+    <ol>
+        <li>There is no difference between the two websites in the time that it takes to complete a task</li>
+        <li>There is no difference between the two websites in return rates back to the home screen</li>
+    </ol>
+
+    <h4>Alternative</h4>
+    <ol>
+        <li>Website A will have a faster time to completion than website B because it is more minimalistic and there are
+            less distractions in the way of the user</li>
+        <li>Users will return to website B more often than website A because of its aesthetic purposes and layout</li>
+    </ol>
+    </p>
+
+    <h3>Implementation</h3>
+    <p>
+        First, I created two different interfaces that varied in presentation but had an interface close enough to
+        compare to each other. Then, 25 classmates acted as users and randomly accessed either design A or B. Their task
+        was to purchase $150 worth of cacti and to checkout. The user information was then recorded and stored.
+    </p>
+
+
+    <h2>Infographic</h2>
+    <div class="info">
+        <img src="info.png" class="graphic" alt="Infographic" />
+    </div>
+    <p>
+        After calculating the T and Chi Squared values, using both p values, it statistically determined that the
+        hypothesis is insignificant. This means that there is doubt that the alternative hypotheses will repeat itself
+        in other trials. As a result, the null might be correct since there isn't enough poof that the alternate
+        hypotheses are true.
+    </p>
+
+    <h2 class="takeaways">Takeaways</h2>
+    <p class="ending">
+        Although the the results reflected in this project are from statistics of 25 users, this sample space was
+        limited to my fellow students and had a limit to the amount of people able to access the webpages. The results
+        of this project shows how AB testing helps developers gain a better insight on their own designs from real
+        user's data. Sometimes it is better to make your website more accessible than interactive. Clearer and
+        straightforward minimalistic designs help users navigate quicker and simple aesthetics make them want to come
+        back.
+    </p>
+</body>
+
+</html>
